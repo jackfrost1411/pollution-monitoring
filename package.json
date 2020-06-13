@@ -1,0 +1,45 @@
+{
+  "name": "pollution",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-chart": "^2.0.0",
+    "@devexpress/dx-react-chart-material-ui": "^2.0.0",
+    "@devexpress/dx-react-core": "^2.0.0",
+    "@nivo/line": "^0.59.3",
+    "@progress/kendo-react-charts": "^3.2.2",
+    "canvasjs": "^1.8.1",
+    "firebase": "^5.9.3",
+    "google-map-react": "^1.1.4",
+    "google-maps-react": "^2.0.2",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.2.7",
+    "react": "^16.8.6",
+    "react-ajax": "^0.1.1",
+    "react-bingmaps": "^3.6.1",
+    "react-canvas-js": "^1.0.1",
+    "react-chartjs-2": "^2.7.6",
+    "react-charts": "^2.0.0-alpha.12",
+    "react-dom": "^16.8.6",
+    "react-google-maps": "^9.4.5",
+    "react-resizable": "^1.8.0",
+    "react-scripts": "2.1.8",
+    "react-slideshow-image": "^1.2.0",
+    "sqlite": "^3.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

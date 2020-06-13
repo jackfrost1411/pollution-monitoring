@@ -1,0 +1,53 @@
+.main1{
+	background-color: rgba(209, 224, 224, 40%);
+	text-align: center;
+}
+
+.h1{
+	color: #5e8787;
+	padding: 30px;
+	--font-family: 'Muli', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.bar{
+	height: 80px;
+	text-align: center;
+	color: blue;
+	display: grid;
+	width: auto;
+	grid-template-columns: repeat(8,1fr);
+}
+.i:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+.i{
+	color: #293d3d;
+	padding-bottom: 10px;
+	font-size: 25px;
+	font-family: 'Ubuntu', sans-serif;
+	cursor: pointer;
+	border-top: 3px solid #344b4b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width:800px){
+.bar{
+	text-align: center;
+}	
+.i{
+	text-align: center;
+	font-size: 12px;
+	--align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	display: grid;
+}
+}

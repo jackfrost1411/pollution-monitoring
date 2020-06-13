@@ -1,0 +1,46 @@
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  height: 500px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.i1{
+	height: 500px;
+	width: auto;
+	background-image: url('./i1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.i2{
+	height: 500px;
+	width: auto;
+	background-image: url('./i2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.i3{
+	height: 500px;
+	width: auto;
+	background-image: url('./i3.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.i4{
+	height: 500px;
+	width: auto;
+	background-image: url('./i4.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}

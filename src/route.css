@@ -1,0 +1,87 @@
+.App {
+	height: 350px;
+	width: 50%;
+}
+.main{
+	width: auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.b{
+	border:1px green solid;
+	height: 80px;
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: white;
+  	color: black;
+  	cursor: pointer;
+}
+.b:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.map-one{
+	border: 1px solid black;
+	width: 47%;
+	float: left;
+	height: 500px;
+	padding: 10px;
+	margin: 5px;
+}
+.map-two{
+	border: 1px solid black;
+	width: 47%;
+	float: right;
+	height: 500px;
+	padding: 10px;
+	margin: 5px;
+}
+.map-three{
+	--border: 1px solid black;
+	width: 100%;
+	float: left;
+	height: 500px;
+	padding: 10px;
+	
+}
+div#eleven {
+    width: 70%;
+    float: right;
+}
+.direction-container{
+	max-height: 460px;
+	overflow: auto;
+}
+.customClass{
+	height: 96%;
+}
+
+@media only screen and (max-width:600px){
+	.customClass{
+		--border: 1px solid black;
+		height: 500px;
+		width: 500px;
+}
+	div#eleven {
+    width: 96%;
+}
+	.map-three{
+		border: 1px solid black;
+		display: grid;
+		height: 1000px;
+		grid-template-rows: repeat(2,1fr);
+		justify-content: center;
+		justify-items:center;
+	}
+	.direction-container{
+		max-height: 460px;
+		overflow: auto;
+}
+}

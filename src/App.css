@@ -1,0 +1,40 @@
+.maps{
+	height: 500px;
+	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	font-family: helvetica;
+	color: black;
+	text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .maps{
+  	display: flex;
+	align-items: center;
+	justify-content: center;
+    width: auto;
+    height: 500px;
+  }
+  .container{
+  	text-align: center;
+  	display: flex;
+	align-items: center;
+	justify-content: center;
+    width: auto;
+    height: 100px;
+}
+}
+.container{
+	font-size: 40px;
+	font-family: helvetica;
+	color: black;
+	text-align: center;
+	height: 100px;
+	width:auto;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
