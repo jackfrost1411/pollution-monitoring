@@ -18,7 +18,7 @@ app.use(cors({origin:true}));
 
 
 app.use((req,res,next)=>{
-	MongoClient.connect("mongodb+srv://dhruvil:dhruvil123@cluster0-8obxb.mongodb.net/test?retryWrites=true", {useNewUrlParser:true},
+	MongoClient.connect("mongodb+srv://dhruvil:[PASSWORD]@cluster0-8obxb.mongodb.net/test?retryWrites=true", {useNewUrlParser:true},
 		async function(err, db) {
 			dbo = await db.db("pollutiondata");
 			next();
