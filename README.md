@@ -1,3 +1,21 @@
+# Pollution Monitoring with the help of data from IoT or public APIs. 
+## Looking forward to integrate our React App with IoT to make it more robust. Contact if interested.
+
+## Screenshots of the Application!
+### Home page
+![Home page](https://github.com/jackfrost1411/pollution-monitoring/blob/master/site1.PNG?raw=true)
+
+### Showing the degree of pollution at the location of user
+![Location page](https://github.com/jackfrost1411/pollution-monitoring/blob/master/site2.PNG?raw=true)
+
+### Indicating the pollution at the route specified by the user
+![Route page](https://github.com/jackfrost1411/pollution-monitoring/blob/master/site3.PNG?raw=true)
+
+### Showing the graphs of daily and monthly data
+![Graph page](https://github.com/jackfrost1411/pollution-monitoring/blob/master/site4.PNG?raw=true)
+
+![Graph page](https://github.com/jackfrost1411/pollution-monitoring/blob/master/site5.PNG?raw=true)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
