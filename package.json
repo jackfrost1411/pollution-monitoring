@@ -9,7 +9,7 @@
     "@nivo/line": "^0.59.3",
     "@progress/kendo-react-charts": "^3.2.2",
     "canvasjs": "^1.8.1",
-    "firebase": "^5.9.3",
+    "firebase": "^10.9.0",
     "google-map-react": "^1.1.4",
     "google-maps-react": "^2.0.2",
     "jquery": "^3.3.1",
